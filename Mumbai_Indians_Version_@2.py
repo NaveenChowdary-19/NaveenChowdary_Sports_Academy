@@ -42,7 +42,7 @@ class Cricketer:
 
             #self.Total_Runs_Mumbai  = 0
 
-            self.Total_Sixes += self.Sixes
+            #self.Total_Sixes += self.Sixes
 
 
 
@@ -58,11 +58,12 @@ class Cricketer:
                 print("{:<5}{:<25} {:<30} {:<10} {:<10} {:<10} {}".format(" ", Mumbai_Indians_Squad[squad]," " ,self.Runs,self.Balls, self.Sixes, self.Strike_Rate), end="\n\n")
                 self.Total_Runs += self.Runs
                 self.Total_Balls += self.Balls
+                self.Total_Sixes += self.Sixes
 
 
 
             else:
-                break
+                print("{:<5}{:<25} ".format(" " , Mumbai_Indians_Squad[squad]) , end = "\n\n")
             # print(self.Runs , self.Balls , self.Sixes , self.Strike_Rate)
 
             self.Total_Runs_Mumbai = self.Total_Runs
@@ -135,7 +136,7 @@ class Cricketer:
 
             #self.Total_Runs = 0
 
-            self.Total_Sixes += self.Sixes
+            #self.Total_Sixes += self.Sixes
 
 
             if self.Runs >= 50:
@@ -150,10 +151,12 @@ class Cricketer:
                 print("{:<5}{:<25} {:<30} {:<10} {:<10} {:<10} {}".format(" ", Team_II_Squad[squad]," " ,self.Runs,self.Balls, self.Sixes, self.Strike_Rate), end="\n\n")
                 self.Total_Runs += self.Runs
                 self.Total_Balls += self.Balls
+                self.Total_Sixes += self.Sixes
 
 
             else:
-                break
+
+                print("{:<5}{:<25}".format(" " , Team_II_Squad[squad]) , end = "\n\n")
 
         self.Total_Runs_Team_II = self.Total_Runs
 
@@ -304,3 +307,4 @@ Mumbai Indians , Royal Challengers
 {"1":"Aron Finch" , "2":"Parthiv Patel (Wk)" , "3":"Virat Kohli (Cap)" , "4":"A B Devilliers" , "5":"Shivam Dube" , "6":"Devdutt Padikkal" , "7":"Chris Morris" , "8":"Washington Sundar" , "9":"Umesh Yadav" , "10":"Yuzvendra Chahal" , "11":"Dale Steyn"}
 
 """
+
