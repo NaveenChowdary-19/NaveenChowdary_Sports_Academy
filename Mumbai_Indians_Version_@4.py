@@ -96,26 +96,26 @@ class Cricketer:
                 end="\n\n\n")
 
             i = 0
-            self.a = 0
-            self.b = 0
-            self.c = 0
-            self.d = 0
-            self.e = 0
+            self.Bowler_1 = 0
+            self.Bowler_2 = 0
+            self.Bowler_3 = 0
+            self.Bowler_4 = 0
+            self.Bowler_5 = 0
 
-            Ch = True
+            Var = True
 
-            while Ch:
-                if self.a + self.b + self.c + self.d + self.e == self.Total_Runs_Mumbai:
-                    Ch = False
+            while Var:
+                if self.Bowler_1 + self.Bowler_2 + self.Bowler_3 + self.Bowler_4 + self.Bowler_5 == self.Total_Runs_Mumbai:
+                    Var = False
 
                 else:
-                    self.a = random.randint(24, 52)
-                    self.b = random.randint(24, 52)
-                    self.c = random.randint(24, 52)
-                    self.d = random.randint(24, 52)
-                    self.e = random.randint(24, 52)
+                    self.Bowler_1 = random.randint(24, 52)
+                    self.Bowler_2 = random.randint(24, 52)
+                    self.Bowler_3 = random.randint(24, 52)
+                    self.Bowler_4 = random.randint(24, 52)
+                    self.Bowler_5 = random.randint(24, 52)
 
-            List = [self.a, self.b, self.c, self.d, self.e]
+            List = [self.Bowler_1 , self.Bowler_2 , self.Bowler_3 , self.Bowler_4 , self.Bowler_5]
             #print(List)
 
             for squad in range(6, 11):
@@ -199,26 +199,26 @@ class Cricketer:
                 end="\n\n\n")
 
             i = 0
-            self.p = 0
-            self.q = 0
-            self.r = 0
-            self.s = 0
-            self.t = 0
+            self.Bowler_1 = 0
+            self.Bowler_2 = 0
+            self.Bowler_3 = 0
+            self.Bowler_4 = 0
+            self.Bowler_5 = 0
 
             var = True
 
             while var:
-                if self.p + self.q + self.r + self.s + self.t == self.Total_Runs_Team_II:
+                if self.Bowler_1 + self.Bowler_2 + self.Bowler_3 + self.Bowler_4 + self.Bowler_5 == self.Total_Runs_Team_II:
                     var = False
 
                 else:
-                    self.p = random.randint(24 , 52)
-                    self.q = random.randint(24 , 52)
-                    self.r = random.randint(24 , 52)
-                    self.s = random.randint(24 , 52)
-                    self.t = random.randint(24 , 52)
+                    self.Bowler_1 = random.randint(24 , 52)
+                    self.Bowler_2 = random.randint(24 , 52)
+                    self.Bowler_3 = random.randint(24 , 52)
+                    self.Bowler_4 = random.randint(24 , 52)
+                    self.Bowler_5 = random.randint(24 , 52)
 
-            List = [self.p , self.q , self.r , self.s , self.t]
+            List = [self.Bowler_1 , self.Bowler_2 , self.Bowler_3 , self.Bowler_4 , self.Bowler_5]
             #print(List)
 
             for squad in range(6, 11):
