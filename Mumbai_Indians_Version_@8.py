@@ -86,7 +86,7 @@ class Cricketer:
                     Bowled_By_List_Team_II.append(Team_II_Squad[bowl])
 
 
-                wicket_type = ["Caught ", "Hit Wicket", "Bowled", "Stumped"]
+                wicket_type = ["Caught ", "Hit Wicket", "Bowled", "Stumped" , "Caught And Bowled"]
 
                 caught_by = random.choice(Team_II_Squad)
 
@@ -102,7 +102,7 @@ class Cricketer:
                 if wicket_type_given == "Stumped":
                     type = wicket_type_given + " By " + Wicky
 
-                elif wicket_type_given == "Bowled" or wicket_type_given == "Hit Wicket":
+                elif wicket_type_given == "Bowled" or wicket_type_given == "Hit Wicket" or wicket_type_given == "Caught And Bowled":
 
                     Bowled_by = random.choice(Bowled_By_List_Team_II)
 
@@ -240,9 +240,9 @@ class Cricketer:
                 Bowled_By_List_Mumbai = []
 
                 for bowl in range(6, 11):
-                    Bowled_By_List_Mumbai.append(Team_II_Squad[bowl])
+                    Bowled_By_List_Mumbai.append(Mumbai_Indians_Squad[bowl])
 
-                wicket_type = ["Caught ", "Hit Wicket", "Bowled", "Stumped"]
+                wicket_type = ["Caught ", "Hit Wicket", "Bowled", "Stumped" , "Caught And Bowled"]
 
                 caught_by = random.choice(Mumbai_Indians_Squad)
 
@@ -265,7 +265,7 @@ class Cricketer:
                 if wicket_type_given == "Stumped":
                     type = wicket_type_given + " By " + Wicky
 
-                elif wicket_type_given == "Bowled" or wicket_type_given == "Hit Wicket":
+                elif wicket_type_given == "Bowled" or wicket_type_given == "Hit Wicket" or wicket_type_given == "Caught And Bowled":
                     type = wicket_type_given + " By " + Bowled_by
 
                 else:
