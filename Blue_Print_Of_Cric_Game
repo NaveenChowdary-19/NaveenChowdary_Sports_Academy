@@ -1,0 +1,32 @@
+1...  set 30 players with Rating in between 6 stars   to 13 stars
+
+2...  Max Team stars selection is 100
+
+3...  first all players should be displayed before that team selection should start
+
+4...  Team selection should be done by by selecting players Nos which we were given to the User 
+
+5...  First User Should Have An Account...
+
+6...  User Should Be Login And We will save His Credentials In Data Base..
+
+7...  We should match the User With Another User In Random Way...
+
+8...  We Should Maintain The User Data .. Like How Many Times He Won or lose
+
+9...  Players Score and Score Card Given IN Random way Like Before Cricket Game 
+
+10... Players Stats Come Randomly As Per The Stars They have....
+
+11..  User Will Have  some 1000 coins When They Create an Account , And He Will Play with Another User With 
+	Those Coins..
+
+12..  Match Score Card Should Print In International Score Card
+
+13..  The 2 Users Should Be In Online Then Only They Can Play..
+
+14..  The Players Played Balls Sum Should Be 120 Not less Than or Greater 
+
+---------------15..  Players Score Should Count How Far They Hit in A Random Way As Per Their Stars...
+
+16..  This All Should Be Done In Web Page...
